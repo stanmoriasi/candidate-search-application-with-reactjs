@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "render-build": "npm install && npm run build",
     "start": "npm run client:build && npm run server",
-    "client:build": "cd client && npm run build",
-    "server:build": "cd server && npm run build"
+    "client:build": "npm run build",
+    "server:build": "npm run build"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
