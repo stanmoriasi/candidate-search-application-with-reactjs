@@ -9,6 +9,11 @@ interface Candidate {
     experience: number;
     education: string;
     resume: string;
+    login: string;
+    html_url: string;
+    avatar_url: string;
+    company: string;
+    bio: string;
 }
 
 export default Candidate;
