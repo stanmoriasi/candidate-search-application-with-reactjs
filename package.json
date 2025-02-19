@@ -11,7 +11,7 @@
     "render-build": "npm install && npm run build",
     "start": "npm run client:build && npm run server",
     "client:build": "npm run build",
-    "server:build": "npm run build"
+    "server": "npm run build"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
